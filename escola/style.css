@@ -178,4 +178,10 @@ footer {
 
     }
 
+    h2 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
 }
