@@ -1,0 +1,110 @@
+:root {
+    --color-one: #121214;
+    --color-two: #202024;
+    --color-three: #2D264A;
+    --color-four: #996DFF;
+    --font-mao: 'Fasthand', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    border-radius: 100%;
+    border: 6px solid var(--color-two);
+    transition-duration: 2s;
+}
+
+
+h1 {
+    /* color: var(--color-two); */
+    color: white;
+    font-weight: bold;
+    transition-duration: 2s;
+    font-size: 48px;
+    font-family: var(--font-mao);
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    gap: 5%;
+}
+
+a {
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 22px;
+    background-color: #996dff65;
+    border-radius: 25px;
+}
+
+
+
+#escola {
+    font-size: 22px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+
+}
+
+footer>p {
+    font-size: 20px;
+    font-family: var(--font-mao);
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-bottom: 50px;
+    }
+
+    main {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    a > div{
+        height: 60px;
+        text-align: center;
+        font-weight: bolder;
+        padding-top: 20px;
+        font-size: 22px;
+        background-color: #996dff65;
+        border-radius: 25px;
+        width: 75%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        top: 0;
+    }
+}

@@ -1,0 +1,115 @@
+:root {
+    --color-one: #121214;
+    --color-two: #202024;
+    --color-three: #2D264A;
+    --color-four: #996DFF;
+    --font-mao: 'Fasthand', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 70px;
+    padding-top: 30px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    transition-duration: 2s;
+    font-size: 48px;
+    font-family: var(--font-mao);
+}
+
+main {
+    display: flex;
+    gap: 15%;
+}
+
+div {
+    height: 87vh;
+    width: 60vw;
+    font-size: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, var(--color-two), var(--color-three));
+    /* color: var(--color-two); */
+    color: lightgrey;
+}
+
+
+#red section.s,
+#yellow section.s {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #133950;
+}
+
+
+li {
+    list-style: none;
+    font-size: 18px;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+}
+
+a {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+
+a>button {
+    background: none;
+}
+
+a>button>span {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: -60px;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-bottom: 50px;
+    }
+
+    a {
+        top: 5px;
+    }
+
+    main {
+        display: block;
+    }
+
+    div {
+        width: 70vw;
+        height: 95vh;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        top: 220%
+    }
+}

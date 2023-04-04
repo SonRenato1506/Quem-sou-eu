@@ -1,0 +1,180 @@
+:root {
+    --color-one: #121214;
+    --color-two: #202024;
+    --color-three: #2D264A;
+    --color-four: #996DFF;
+    --font-mao: 'Fasthand', cursive;
+}
+
+body {
+    background-color: black;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 160vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: var(--font-mao);
+}
+
+main {
+    display: flex;
+}
+
+section {
+    border: 2px solid var(--color-three);
+    position: absolute;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: justify;
+    text-align: center;
+}
+
+#futuro {
+    left: 50px;
+    width: 35vw;
+}
+
+#zulmira {
+    left: 45vw;
+    width: 20vw;
+    height: 60vh;
+}
+
+#paulo {
+    left: 70vw;
+    width: 20vw;
+    height: 55vh;
+}
+
+#ifsp {
+    top: 80vh;
+    left: 45vw;
+}
+
+h2 {
+    font-size: 28px;
+    position: absolute;
+    top: 115vh;
+    left: 44vw;
+}
+
+div {
+    position: absolute;
+    top: 130vh;
+    width: 20vw;
+    border: 2px solid var(--color-three);
+    padding: 15px;
+    text-align: center;
+    height: 27vh;
+    border-radius: 15px;
+}
+
+#one {
+    left: 1vw;
+}
+
+#two {
+    left: 26vw;
+}
+
+#three {
+    left: 51vw;
+}
+
+#four {
+    left: 76vw;
+}
+
+a {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+
+a>button {
+    background: none;
+}
+
+a>button>span {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        margin-top: 40px;
+    }
+    a {
+        top: 0;
+    }
+
+    main {
+        display: block;
+    }
+
+    section, div {
+        position: relative;
+    }
+
+    #futuro {
+        width: 70vw;
+        left: 0;
+        margin-left: 10vw;
+    }
+    
+    #futuro > img {
+        width: 60vw;
+    }
+    
+    #zulmira {
+        width: 70vw;
+        margin-top: 10px;
+        left: 0;
+        margin-left: 10vw;
+    }
+
+    #paulo {
+        width: 70vw;
+        margin-top: 10px;
+        left: 0;
+        margin-left: 10vw;
+    }
+
+    #ifsp {
+        top: 0;
+        width: 70vw;
+        margin-top: 10px;
+        left: 0;
+        margin-left: 10vw;
+    }
+
+    div {
+        top: 0;
+        width: 70vw;
+        margin-top: 10px;
+        left: 0;
+        margin-left: 10vw;
+        height: auto;
+    }
+
+    #one, #two, #three, #four {
+        left: 0;
+
+    }
+
+}
