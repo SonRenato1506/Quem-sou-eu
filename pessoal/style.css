@@ -83,4 +83,8 @@ a>button>span {
     a#voltar {
         left: 0;
     }
+
+    footer {
+        display: none;
+    }
 }

@@ -127,6 +127,6 @@ footer {
     }
 
     footer {
-        top: 220%
+        display: none;
     }
 }

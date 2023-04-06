@@ -190,4 +190,8 @@ footer {
         left: 0;
     }
 
+    footer {
+        display: none;
+    }
+
 }
