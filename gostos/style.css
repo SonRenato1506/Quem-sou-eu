@@ -22,6 +22,7 @@ body {
     text-align: center;
     padding: 70px;
     padding-top: 30px;
+    height: auto;
 }
 
 h1 {
@@ -43,11 +44,21 @@ div {
     font-size: 20px;
     padding-top: 10px;
     border-radius: 20px;
+    text-align: justify;
     background: linear-gradient(to bottom, var(--color-two), var(--color-three));
     /* color: var(--color-two); */
     color: lightgrey;
+    padding-left: 20px;
 }
 
+p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+ul, li {
+    margin-top: 5px;
+}
 
 #red section.s,
 #yellow section.s {
