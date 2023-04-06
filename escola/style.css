@@ -124,12 +124,17 @@ footer {
         top: 0;
     }
 
+    img {
+        width: 300px;
+    }
+
     main {
         display: block;
     }
 
     section, div {
         position: relative;
+        height: auto;
     }
 
     #futuro {
@@ -143,6 +148,7 @@ footer {
     }
     
     #zulmira {
+        height: auto;
         width: 70vw;
         margin-top: 10px;
         left: 0;
