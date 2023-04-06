@@ -103,6 +103,11 @@ footer {
         display: block;
     }
 
+    section {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
     div {
         width: 70vw;
         height: auto;
