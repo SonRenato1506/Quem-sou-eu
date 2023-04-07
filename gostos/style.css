@@ -1,7 +1,7 @@
 :root {
     --color-one: #121214;
-    --color-two: #202024;
-    --color-three: #2D264A;
+    --color-two: #202024b2;
+    --color-three: #2d264acb;
     --color-four: #996DFF;
     --font-mao: 'Fasthand', cursive;
 }
@@ -84,7 +84,7 @@ p {
 a {
     position: absolute;
     top: 50px;
-    margin: auto;
+    left: 50px;
     background: none;
     color: white;
     text-decoration: none;
