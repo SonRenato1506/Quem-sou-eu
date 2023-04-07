@@ -42,21 +42,26 @@ h1 {
 main {
     margin-top: 100px;
     display: flex;
+    /* margin-left: 5%; */
     gap: 5%;
 }
 
 a {
+    /* margin-right: 5%; */
     width: 30%;
-    height: 50px;
+    height: 70px;
     text-align: center;
     font-weight: bolder;
-    padding-top: 20px;
     font-size: 22px;
     background-color: #996dff65;
     border-radius: 25px;
 }
 
 
+
+p {
+    margin-top: 20px;
+}
 
 #escola {
     font-size: 22px;
@@ -96,7 +101,6 @@ footer>p {
         height: 60px;
         text-align: center;
         font-weight: bolder;
-        padding-top: 20px;
         font-size: 22px;
         background-color: #996dff65;
         border-radius: 25px;
@@ -104,6 +108,10 @@ footer>p {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    p {
+        margin-top: 10px;
     }
 
     footer {
