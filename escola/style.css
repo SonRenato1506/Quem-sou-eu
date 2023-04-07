@@ -6,6 +6,7 @@
     --font-mao: 'Fasthand', cursive;
 }
 
+
 body {
     background-attachment: fixed;
     background-color: black;
@@ -14,9 +15,11 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+    
     height: 160vh;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 h1,
 h2 {
